@@ -1,0 +1,39 @@
+* { color: #f5f1e8; font-family: "Avenir Next", "Segoe UI", sans-serif; }
+QWidget#root { background: #161714; }
+QLabel#brand { font-size: 23px; font-weight: 700; letter-spacing: -0.3px; }
+QLabel#eyebrow, QLabel#heroCaption { color: #aaa99f; font-size: 10px; font-weight: 700; letter-spacing: 1.6px; }
+QLabel#eyebrowOrange { color: #ff7a32; font-size: 10px; font-weight: 700; letter-spacing: 1.8px; }
+QLabel#muted { color: #b8b7ae; font-size: 14px; }
+QFrame#cameraStage { background: #090a08; border: 1px solid #33342f; border-radius: 4px; }
+QWidget#permissionView { background: #0d0e0b; }
+QWidget#hud { background: transparent; }
+QLabel#permissionTitle { color: #f5f1e8; font-size: 28px; font-weight: 600; }
+QLabel#video { background: #090a08; }
+QLabel#cameraState { color: #d2a58d; background: rgba(24, 22, 18, 210); border: 1px solid #5b4336; border-radius: 11px; padding: 6px 10px; font-size: 10px; font-weight: 700; letter-spacing: 0.8px; }
+QLabel#cameraState[active="true"] { color: #a8dda9; border-color: #335f3e; background: rgba(18, 38, 24, 220); }
+QLabel#statusPill { color: #f0c3a7; background: rgba(65, 39, 25, 220); border: 1px solid #74472e; border-radius: 11px; padding: 6px 11px; font-size: 10px; font-weight: 700; }
+QLabel#statusPill[good="true"] { color: #b7e8b8; background: rgba(23, 61, 32, 220); border-color: #3f7549; }
+QLabel#repHero { color: rgba(245, 241, 232, 235); font-family: "Arial Narrow", "Avenir Next Condensed"; font-size: 92px; font-weight: 700; }
+QLabel#coachCue { color: #fffaf1; background: rgba(17, 17, 14, 225); border: 1px solid #45443d; border-radius: 4px; padding: 12px 22px; font-size: 15px; font-weight: 600; }
+QFrame#performanceStrip { background: #1e1f1b; border-top: 1px solid #3b3c36; border-bottom: 1px solid #3b3c36; }
+QFrame#divider { color: #44453f; }
+QLabel#metricValue { color: #f5f1e8; font-family: "Arial Narrow", "Avenir Next Condensed"; font-size: 26px; font-weight: 700; }
+QLabel#metricSuffix { color: #94938a; font-size: 11px; padding-bottom: 4px; }
+QLabel#scoreCompact { color: #ff7a32; font-family: "Arial Narrow", "Avenir Next Condensed"; font-size: 26px; font-weight: 700; }
+QPushButton { min-height: 42px; border-radius: 3px; padding: 0 17px; font-size: 12px; font-weight: 650; }
+QPushButton#primaryButton { background: #f5f1e8; color: #171814; border: 1px solid #ffffff; }
+QPushButton#primaryButton:hover { background: #ff7a32; border-color: #ff7a32; }
+QPushButton#cameraButton { background: transparent; color: #e5e0d6; border: 1px solid #54564e; min-width: 126px; }
+QPushButton#cameraButton:hover { border-color: #ff7a32; color: #ffffff; }
+QPushButton#cameraButton[active="true"] { color: #b7e8b8; border-color: #3f7549; background: #17291b; }
+QPushButton#quietButton { background: transparent; color: #c7c5bc; border: 1px solid #484a43; }
+QPushButton#quietButton:hover { color: #ffffff; border-color: #777970; }
+QPushButton:disabled { color: #77776f; background: #292a26; border-color: #393a35; }
+QPushButton:focus, QComboBox:focus { border: 2px solid #ff7a32; }
+QComboBox { min-height: 42px; min-width: 150px; background: #20211d; border: 1px solid #4b4d46; border-radius: 3px; padding: 0 13px; font-weight: 600; }
+QComboBox:hover { border-color: #777970; }
+QComboBox::drop-down { width: 30px; border: none; }
+QComboBox QAbstractItemView { background: #20211d; border: 1px solid #55574f; selection-background-color: #ff7a32; selection-color: #151612; padding: 5px; }
+QProgressBar { height: 24px; background: #11120f; border: 1px solid #45463f; border-radius: 3px; text-align: center; color: #e8e3d9; font-size: 10px; font-weight: 700; letter-spacing: 0.8px; }
+QProgressBar::chunk { background: #ff7a32; }
+QToolTip { background: #161714; color: #f5f1e8; border: 1px solid #55574f; padding: 6px; }
